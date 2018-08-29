@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+    {{#each jsscripts}}
+    <script src="/static/{{this}}"></script>
+    {{/each}}
+	<title>Luke Blanchard</title>
+</head>
+<body>
+	{{{body}}}
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>	
+    <script src="js/navEffect.js"></script>
+    <script src="js/scrollFade.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/dropDown.js"></script>
+</body>
+</html>
